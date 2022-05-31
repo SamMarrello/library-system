@@ -9,7 +9,7 @@ import io.ktor.server.routing.*
 fun Application.mainRouter() {
     routing {
         singlePageApplication{
-            react("../library-app")
+            react("library-app")
         }
     }
 }
